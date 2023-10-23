@@ -1,0 +1,66 @@
+.character-card {
+  width: 750px;
+  padding: 20px;
+  border-radius: 20px;
+  background: rgb(60, 62, 68);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.character-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+img {
+  border-radius: 20px;
+}
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h5 {
+  color: gray;
+}
+
+.userText:hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.loading {
+  font-size: 50px;
+  background-color: yellow;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.unknown {
+  background-color: grey;
+  border-radius: 20px;
+  width: 10px;
+  height: 10px;
+}
+
+.alive {
+  background-color: green;
+  border-radius: 20px;
+  width: 10px;
+  height: 10px;
+}
+
+.dead {
+  background-color: red;
+  border-radius: 20px;
+  width: 10px;
+  height: 10px;
+}
